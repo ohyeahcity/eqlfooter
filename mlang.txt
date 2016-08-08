@@ -6,7 +6,7 @@
       "lang_navload": "下載",
       "lang_navfaq": "FAQ",
       "lang_navch": "TW - 繁體中文",
-      "lang_naven": "EN - 英文",
+      "lang_naven": "EN - 英文"
    },
    {
       "lang_navproduct": "Product",
@@ -14,8 +14,7 @@
       "lang_navspec": "Product Spec",
       "lang_navload": "Download",
       "lang_navfaq": "FAQ",
-      "lang_navch": "TW - Traditional Chinese ",
-      "lang_naven": "EN - English",
-
+      "lang_navch": "TW - Traditional Chinese",
+      "lang_naven": "EN - English"
    }
 ]

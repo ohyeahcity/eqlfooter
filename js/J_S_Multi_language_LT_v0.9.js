@@ -53,6 +53,7 @@ function chg_lang(lang_index){
 //主要功能1 : Multi-lang Title 根據 on_click 事件切換網頁標題
 function changeWebTitle(lang_index){
       //變更多語系網頁Title
+      document.getElementsByTagName("body")[0].className = "";
       document.getElementsByTagName("title")[0].innerHTML = Multi_Lang_Title[lang_index];
       return;
 
@@ -79,34 +80,6 @@ function changeNavBarUIWording(lang_index){
   document.getElementById('change_dropdown_title').innerHTML =  Multi_Lang_Wording[lang_index]+'<b class="caret"></b>';
 
   return;
-}
-
-
-
-
-//控制圖片中的語系
-function changeImageByLang(lang_index){
-
-
-  switch (lang_index) {
-
-    case 0:
-          document.getElementById('lang_homie_title').src = "images/logo_homie_white_ch.png" ;
-          console.log("image is cht");
-
-      break;
-    case 1:
-        document.getElementById('lang_homie_title').src = "images/logo_homie_white_eng.png" ;
-        console.log("english image now");
-      break;
-    default:
-      document.getElementById('lang_homie_title').src = "images/logo_homie_white_ch.png" ;
-      console.log("image is default cht");
-      break;
-
-  }
-  return;
-
 }
 
 
