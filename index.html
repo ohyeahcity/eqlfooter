@@ -17,65 +17,88 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     </head>
-    <body>
-        <header id="header">
-            <!-- Navbar -->
-            <nav class="navbar navbar-inverse nav_spec" role="navigation" data-spy="affix" data-offset-top="500">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed fix_drop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="http://www.eqltech.com/" target="_self">
-                            <img src="images/logo_homie.png" alt="EQL" class="img-responsive fix_brand">
-                        </a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="active">
-                                <a href="#" data-id="#">Link <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li>
-                                <a href="#" data-id="#">Link</a>
-                            </li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <a href="#" data-id="#">Action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-id="#">Another action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" data-id="#">Something else here</a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li>
-                                        <a href="#" data-id="#">Separated link</a>
-                                    </li>
-                                    <li class="divider"></li>
-                                    <li>
-                                        <a href="#" data-id="#">One more separated link</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <button type="button" value="order" onclick="window.open('https://www.91app.com/')" class="btn button navbar-btn btn_order">Order</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- /.navbar-collapse -->
+    <body class="" onload="detectUserLang()" style="cursor: auto;" data-pinterest-extension-installed="cr1.39.1">
+      <header id="header">
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse nav_spec" role="navigation" data-spy="affix" data-offset-top="500">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed fix_drop" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.eqltech.com/" target="_self">
+                        <img src="images/logo_homie.png" alt="EQL" class="img-responsive fix_brand">
+                    </a>
                 </div>
-                <!-- /.container-fluid -->
-            </nav>
-            <!--// End Navbar -->
-        </header>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!--<li class="active">-->
+                        <li>
+
+                            <a href="http://www.eqltech.com/">
+                                <img src="images/nav_home.png" style="margin-top:4px" class="img-responsive" onmouseover="this.src='images/nav_home_hover.png'"
+                                onmouseout="this.src='images/nav_home.png'"  alt="home"></a>
+                      </li>
+
+
+
+
+                        <li>
+                          <a href="#" id="lang_navproduct" data-id="feature">產品<span class="sr-only">(current)</span></a>
+                            <!--<a href="#" data-id="feature">Feature<span class="sr-only">(current)</span></a>-->
+                        </li>
+                        <li>
+                            <a href="#" id="lang_navscenario" data-id="how">應用</a>
+                            <!--<a href="#" data-id="how">How It Works</a>-->
+                        </li>
+
+                        <li>
+                            <a href="#" id="lang_navspec" data-id="spec">規格</a>
+                            <!--<a href="#" data-id="spec">Product Spec</a>-->
+                        </li>
+
+                        <li>
+                             <a href="#" id="lang_navload" data-id="load">下載</a>
+
+                            <!--<a href="#" data-id="load">Download</a>-->
+                        </li>
+
+                        <li>
+                            <a href="#" id="lang_navfaq">FAQ</a>
+                            <!--<a href="#" data-id="spec">Product Spec</a>-->
+                        </li>
+
+
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="change_dropdown_title">TW - 繁體中文<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#" onclick="chg_lang(0)" id="lang_navch">TW - 繁體中文</a>
+                                </li>
+                                <li>
+                                    <a href="#" onclick="chg_lang(1)" id="lang_naven">EN - 英文</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+
+
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+        <!--// End Navbar -->
+    </header>
         <div id="carousel-example-generic" class="carousel-fade carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -154,12 +177,18 @@
                                 <h4>Service</h4>
                                 <ul>
 
+                                  <li>
+                                      <a href="#"> About Us</a>
+                                  </li>
+
+                                  <li>
+                                      <a href="#">Contact Us</a>
+                                  </li>
+
                                     <li>
                                         <a href="#"> Be a Distributor</a>
                                     </li>
-                                    <li>
-                                        <a href="#">Contact Us</a>
-                                    </li>
+
                                 </ul>
                             </div>
                             <div class="col-md-4">
@@ -224,5 +253,6 @@
 		  });
 
 		  </script>
+      <script type="text/javascript" src="js/J_S_Multi_language_LT_v0.9.js"></script>
     </body>
 </html>

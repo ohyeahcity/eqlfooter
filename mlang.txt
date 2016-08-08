@@ -1,0 +1,21 @@
+[
+   {
+      "lang_navproduct": "產品",
+      "lang_navscenario": "應用",
+      "lang_navspec": "規格",
+      "lang_navload": "下載",
+      "lang_navfaq": "FAQ",
+      "lang_navch": "TW - 繁體中文",
+      "lang_naven": "EN - 英文",
+   },
+   {
+      "lang_navproduct": "Product",
+      "lang_navscenario": "Scenario",
+      "lang_navspec": "Product Spec",
+      "lang_navload": "Download",
+      "lang_navfaq": "FAQ",
+      "lang_navch": "TW - Traditional Chinese ",
+      "lang_naven": "EN - English",
+
+   }
+]

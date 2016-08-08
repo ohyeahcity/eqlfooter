@@ -1,0 +1,57 @@
+Html:
+<h4 style="clear:both">Product</h4>
+<!--<a href="#" target="_blank" class="btn btn-block button">Buy Now</a>-->
+
+
+CSS/ eql_temp:
+.copyright p{
+                text-align: center;
+                color: #999;
+                font-size:13px;
+                letter-spacing: 0.5px;
+                }
+.snBtn {
+                width:200px;
+                height: 20px;
+                margin-left:-50px;
+                display: block;
+          }
+
+---------------------------------------------------------------------
+
+Date:20160802
+
+1.html:
+
+<div class="col-md-4">
+<h4 style="clear:both">Product</h4>
+<ul>
+<li><a href="http://www.eql.com.tw/EQL_essence/">essence</a></li>
+<li><a href="http://www.eql.com.tw/homieproductline/">Homie</a></li>
+<li><a href="http://www.eql.com.tw/ripple/">Ripple</a></li>
+<li><a href="http://www.eql.com.tw/pc_stick/">PC Stick</a</li>
+</ul>
+</div>
+
+
+
+2.html:
+<div class="col-md-4"><h4>Service</h4>
+                                
+<ul>
+
+<li><a href="#"> Be a Distributor</a></li>
+
+<li><a href="#">Contact Us</a> </li>
+
+</ul>
+</div>
+
+
+3.Replace icon of facebook and Linkin
+
+
+
+
+
+ 
